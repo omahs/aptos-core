@@ -1035,7 +1035,13 @@ impl VMAdapter for AptosVM {
 
                 // Increment the counter for user transactions executed.
                 let counter_label = match output.txn_output().status() {
-                    TransactionStatus::Keep(_) => Some("success"),
+                    TransactionStatus::Keep(status) => {
+                        if status.is_success() {
+                            Some("success")
+                        } else {
+                            Some("onchain_error")
+                        }
+                    }
                     TransactionStatus::Discard(_) => Some("discarded"),
                     TransactionStatus::Retry => None,
                 };
