@@ -119,6 +119,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -168,6 +173,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -217,6 +227,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -266,6 +281,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -315,6 +335,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -364,6 +389,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -413,6 +443,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_account
   /accounts/{address}/resources:
     get:
@@ -510,6 +545,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -559,6 +599,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -608,6 +653,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -657,6 +707,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -706,6 +761,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -755,6 +815,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -804,6 +869,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_account_resources
   /accounts/{address}/modules:
     get:
@@ -901,6 +971,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -950,6 +1025,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -999,6 +1079,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -1048,6 +1133,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -1097,6 +1187,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -1146,6 +1241,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -1195,6 +1295,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_account_modules
   /spec:
     get:
@@ -1301,6 +1406,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -1350,6 +1460,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -1399,6 +1514,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: healthy
   /blocks/by_height/{block_height}:
     get:
@@ -1498,6 +1618,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -1547,6 +1672,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -1596,6 +1726,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -1645,6 +1780,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -1694,6 +1834,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -1743,6 +1888,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -1792,6 +1942,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_block_by_height
   /blocks/by_version/{version}:
     get:
@@ -1891,6 +2046,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -1940,6 +2100,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -1989,6 +2154,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -2038,6 +2208,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -2087,6 +2262,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -2136,6 +2316,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -2185,6 +2370,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_block_by_version
   /accounts/{address}/events/{creation_number}:
     get:
@@ -2307,6 +2497,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -2356,6 +2551,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -2405,6 +2605,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -2454,6 +2659,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -2503,6 +2713,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -2552,6 +2767,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -2601,6 +2821,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_events_by_creation_number
   /accounts/{address}/events/{event_handle}/{field_name}:
     get:
@@ -2728,6 +2953,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -2777,6 +3007,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -2826,6 +3061,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -2875,6 +3115,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -2924,6 +3169,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -2973,6 +3223,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -3022,6 +3277,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_events_by_event_handle
   /:
     get:
@@ -3094,6 +3354,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -3143,6 +3408,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -3192,6 +3462,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -3241,6 +3516,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -3290,6 +3570,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_ledger_info
   /accounts/{address}/resource/{resource_type}:
     get:
@@ -3393,6 +3678,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -3442,6 +3732,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -3491,6 +3786,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -3540,6 +3840,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -3589,6 +3894,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -3638,6 +3948,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -3687,6 +4002,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_account_resource
   /accounts/{address}/module/{module_name}:
     get:
@@ -3790,6 +4110,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -3839,6 +4164,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -3888,6 +4218,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -3937,6 +4272,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -3986,6 +4326,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -4035,6 +4380,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -4084,6 +4434,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_account_module
   /tables/{table_handle}/item:
     post:
@@ -4190,6 +4545,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -4239,6 +4599,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -4288,6 +4653,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -4337,6 +4707,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -4386,6 +4761,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -4435,6 +4815,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -4484,6 +4869,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_table_item
   /transactions:
     get:
@@ -4584,6 +4974,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -4633,6 +5028,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -4682,6 +5082,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -4731,6 +5136,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -4780,6 +5190,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -4829,6 +5244,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -4878,6 +5298,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_transactions
     post:
       tags:
@@ -4975,6 +5400,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -5024,6 +5454,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -5073,6 +5508,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '413':
           description: ''
           content:
@@ -5122,6 +5562,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -5171,6 +5616,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -5220,6 +5670,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '507':
           description: ''
           content:
@@ -5269,6 +5724,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: submit_transaction
   /transactions/by_hash/{txn_hash}:
     get:
@@ -5359,6 +5819,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -5408,6 +5873,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -5457,6 +5927,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -5506,6 +5981,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -5555,6 +6035,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -5604,6 +6089,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -5653,6 +6143,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_transaction_by_hash
   /transactions/by_version/{txn_version}:
     get:
@@ -5734,6 +6229,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -5783,6 +6283,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -5832,6 +6337,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -5881,6 +6391,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -5930,6 +6445,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -5979,6 +6499,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -6028,6 +6553,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_transaction_by_version
   /accounts/{address}/transactions:
     get:
@@ -6136,6 +6666,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -6185,6 +6720,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -6234,6 +6774,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '404':
           description: ''
           content:
@@ -6283,6 +6828,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '410':
           description: ''
           content:
@@ -6332,6 +6882,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -6381,6 +6936,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -6430,6 +6990,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: get_account_transactions
   /transactions/batch:
     post:
@@ -6534,6 +7099,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '206':
           description: ''
           content:
@@ -6596,6 +7166,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -6645,6 +7220,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -6694,6 +7274,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '413':
           description: ''
           content:
@@ -6743,6 +7328,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -6792,6 +7382,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -6841,6 +7436,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '507':
           description: ''
           content:
@@ -6890,6 +7490,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: submit_batch_transactions
   /transactions/simulate:
     post:
@@ -7006,6 +7611,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -7055,6 +7665,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -7104,6 +7719,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '413':
           description: ''
           content:
@@ -7153,6 +7773,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -7202,6 +7827,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -7251,6 +7881,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '507':
           description: ''
           content:
@@ -7300,6 +7935,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: simulate_transaction
   /transactions/encode_submission:
     post:
@@ -7392,6 +8032,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -7441,6 +8086,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -7490,6 +8140,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -7539,6 +8194,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -7588,6 +8248,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: encode_submission
   /estimate_gas_price:
     get:
@@ -7664,6 +8329,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '400':
           description: ''
           content:
@@ -7713,6 +8383,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '403':
           description: ''
           content:
@@ -7762,6 +8437,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '500':
           description: ''
           content:
@@ -7811,6 +8491,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
         '503':
           description: ''
           content:
@@ -7860,6 +8545,11 @@ paths:
               schema:
                 type: integer
                 format: uint64
+            X-APTOS-GIT-HASH:
+              description: The current git hash of the server
+              deprecated: false
+              schema:
+                type: string
       operationId: estimate_gas_price
 components:
   schemas:
@@ -9358,4 +10048,3 @@ components:
           $ref: '#/components/schemas/DecodedTableData'
 externalDocs:
   url: https://github.com/aptos-labs/aptos-core
-

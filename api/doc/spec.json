@@ -158,6 +158,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -225,6 +232,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -294,6 +308,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -361,6 +382,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -430,6 +458,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -498,6 +533,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -565,6 +607,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -689,6 +738,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -756,6 +812,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -825,6 +888,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -892,6 +962,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -961,6 +1038,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1029,6 +1113,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1096,6 +1187,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -1220,6 +1318,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1287,6 +1392,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -1356,6 +1468,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1423,6 +1542,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -1492,6 +1618,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1560,6 +1693,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1627,6 +1767,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -1760,6 +1907,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1828,6 +1982,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -1895,6 +2056,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -2017,6 +2185,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2084,6 +2259,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -2153,6 +2335,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2220,6 +2409,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -2289,6 +2485,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2357,6 +2560,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2424,6 +2634,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -2546,6 +2763,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2613,6 +2837,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -2682,6 +2913,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2749,6 +2987,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -2818,6 +3063,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2886,6 +3138,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -2953,6 +3212,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -3100,6 +3366,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -3167,6 +3440,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -3236,6 +3516,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -3303,6 +3590,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -3372,6 +3666,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -3440,6 +3741,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -3507,6 +3815,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -3665,6 +3980,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -3732,6 +4054,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -3801,6 +4130,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -3868,6 +4204,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -3937,6 +4280,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4005,6 +4355,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4072,6 +4429,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -4169,6 +4533,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4236,6 +4607,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -4305,6 +4683,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4373,6 +4758,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4440,6 +4832,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -4572,6 +4971,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4639,6 +5045,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -4708,6 +5121,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4775,6 +5195,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -4844,6 +5271,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4912,6 +5346,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -4979,6 +5420,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -5111,6 +5559,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5178,6 +5633,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -5247,6 +5709,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5314,6 +5783,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -5383,6 +5859,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5451,6 +5934,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5518,6 +6008,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -5649,6 +6146,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5716,6 +6220,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -5785,6 +6296,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5852,6 +6370,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -5921,6 +6446,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5989,6 +6521,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6056,6 +6595,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -6181,6 +6727,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6248,6 +6801,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -6317,6 +6877,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6384,6 +6951,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -6453,6 +7027,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6521,6 +7102,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6588,6 +7176,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -6702,6 +7297,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6769,6 +7371,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -6838,6 +7447,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -6905,6 +7521,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -6974,6 +7597,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7042,6 +7672,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7109,6 +7746,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -7219,6 +7863,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7286,6 +7937,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -7355,6 +8013,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7422,6 +8087,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -7491,6 +8163,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7559,6 +8238,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7626,6 +8312,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -7736,6 +8429,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7803,6 +8503,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -7872,6 +8579,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -7939,6 +8653,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -8008,6 +8729,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8076,6 +8804,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8143,6 +8878,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -8279,6 +9021,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8346,6 +9095,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -8415,6 +9171,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8482,6 +9245,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -8551,6 +9321,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8619,6 +9396,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8686,6 +9470,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -8805,6 +9596,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8889,6 +9687,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -8956,6 +9761,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -9025,6 +9837,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9092,6 +9911,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -9161,6 +9987,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9229,6 +10062,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9296,6 +10136,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -9439,6 +10286,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9506,6 +10360,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -9575,6 +10436,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9642,6 +10510,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -9711,6 +10586,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9779,6 +10661,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -9846,6 +10735,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -9953,6 +10849,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -10020,6 +10923,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -10089,6 +10999,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -10157,6 +11074,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -10224,6 +11148,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -10321,6 +11252,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -10388,6 +11326,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }
@@ -10457,6 +11402,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -10525,6 +11477,13 @@
                   "type": "integer",
                   "format": "uint64"
                 }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -10592,6 +11551,13 @@
                 "schema": {
                   "type": "integer",
                   "format": "uint64"
+                }
+              },
+              "X-APTOS-GIT-HASH": {
+                "description": "The current git hash of the server",
+                "deprecated": false,
+                "schema": {
+                  "type": "string"
                 }
               }
             }

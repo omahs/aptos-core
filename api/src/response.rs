@@ -144,6 +144,8 @@ macro_rules! generate_error_response {
                 #[oai(header = "X-Aptos-Block-Height")] Option<u64>,
                 /// Oldest non-pruned block height of the chain
                 #[oai(header = "X-Aptos-Oldest-Block-Height")] Option<u64>,
+                /// The current git hash of the server
+                #[oai(header = "X-Aptos-Git-Hash")] Option<String>,
             ),
             )*
         }
@@ -171,6 +173,7 @@ macro_rules! generate_error_response {
                     Some(ledger_info.epoch.into()),
                     Some(ledger_info.block_height.into()),
                     Some(ledger_info.oldest_block_height.into()),
+                    Some(aptos_build_info::get_git_hash())
                 ))
             }
 
@@ -190,6 +193,7 @@ macro_rules! generate_error_response {
                     None,
                     None,
                     None,
+                    Some(aptos_build_info::get_git_hash())
                 ))
             }
 
@@ -210,6 +214,7 @@ macro_rules! generate_error_response {
                     Some(ledger_info.epoch.into()),
                     Some(ledger_info.block_height.into()),
                     Some(ledger_info.oldest_block_height.into()),
+                    Some(aptos_build_info::get_git_hash())
                 ))
             }
 
@@ -227,6 +232,7 @@ macro_rules! generate_error_response {
                     Some(ledger_info.epoch.into()),
                     Some(ledger_info.block_height.into()),
                     Some(ledger_info.oldest_block_height.into()),
+                    Some(aptos_build_info::get_git_hash())
                 ))
             }
         }
@@ -246,6 +252,7 @@ macro_rules! generate_error_response {
                         _epoch,
                         _block_height,
                         _oldest_block_height,
+                        _aptos_build_info
                     ) => inner,
                     )*
                 }
@@ -298,6 +305,8 @@ macro_rules! generate_success_response {
                 #[oai(header = "X-Aptos-Block-Height")] u64,
                 /// Oldest non-pruned block height of the chain
                 #[oai(header = "X-Aptos-Oldest-Block-Height")] u64,
+                /// The current git hash of the server
+                #[oai(header = "X-Aptos-Git-Hash")] Option<String>,
             ),
             )*
         }
@@ -337,6 +346,7 @@ macro_rules! generate_success_response {
                             ledger_info.epoch.into(),
                             ledger_info.block_height.into(),
                             ledger_info.oldest_block_height.into(),
+                            Some(aptos_build_info::get_git_hash())
                         )
                     },
                     )*

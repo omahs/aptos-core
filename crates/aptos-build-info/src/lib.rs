@@ -103,6 +103,11 @@ pub fn get_build_information() -> BTreeMap<String, String> {
     build_information
 }
 
+pub fn get_git_hash() -> String {
+    shadow!(build);
+    build::COMMIT_HASH.into()
+}
+
 #[cfg(test)]
 mod tests {
     use crate::*;
