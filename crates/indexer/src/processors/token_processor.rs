@@ -10,6 +10,7 @@ use crate::{
         transaction_processor::TransactionProcessor,
     },
     models::token_models::{
+        ans_lookup::{CurrentAnsLookup, CurrentAnsLookupPK},
         collection_datas::{CollectionData, CurrentCollectionData},
         token_activities::TokenActivity,
         token_claims::CurrentTokenPendingClaim,
@@ -67,6 +68,7 @@ fn insert_to_db_impl(
         &[TokenEscrow],
         &[CurrentTokenEscrow],
     ),
+    current_ans_lookups: &[CurrentAnsLookup],
 ) -> Result<(), diesel::result::Error> {
     let (tokens, token_ownerships, token_datas, collection_datas) = basic_token_transaction_lists;
     let (current_token_ownerships, current_token_datas, current_collection_datas) =
@@ -84,6 +86,7 @@ fn insert_to_db_impl(
     insert_current_token_listings(conn, current_token_listings)?;
     insert_token_escrows(conn, token_escrows)?;
     insert_current_token_escrows(conn, current_token_escrows)?;
+    insert_current_ans_lookups(conn, current_ans_lookups)?;
     Ok(())
 }
 
@@ -110,6 +113,7 @@ fn insert_to_db(
         Vec<TokenEscrow>,
         Vec<CurrentTokenEscrow>,
     ),
+    current_ans_lookups: Vec<CurrentAnsLookup>,
 ) -> Result<(), diesel::result::Error> {
     aptos_logger::trace!(
         name = name,
@@ -140,6 +144,7 @@ fn insert_to_db(
                     &token_escrows,
                     &current_token_escrows,
                 ),
+                &current_ans_lookups,
             )
         }) {
         Ok(_) => Ok(()),
@@ -159,6 +164,7 @@ fn insert_to_db(
                 let current_token_listings = clean_data_for_db(current_token_listings, true);
                 let token_escrows = clean_data_for_db(token_escrows, true);
                 let current_token_escrows = clean_data_for_db(current_token_escrows, true);
+                let current_ans_lookups = clean_data_for_db(current_ans_lookups, true);
 
                 insert_to_db_impl(
                     pg_conn,
@@ -175,6 +181,7 @@ fn insert_to_db(
                         &token_escrows,
                         &current_token_escrows,
                     ),
+                    &current_ans_lookups,
                 )
             }),
     }
@@ -417,6 +424,7 @@ fn insert_token_activities(
     }
     Ok(())
 }
+
 fn insert_current_token_claims(
     conn: &mut PgConnection,
     items_to_insert: &[CurrentTokenPendingClaim],
@@ -452,6 +460,7 @@ fn insert_current_token_claims(
     }
     Ok(())
 }
+
 fn insert_current_token_listings(
     conn: &mut PgConnection,
     items_to_insert: &[CurrentTokenListing],
@@ -485,6 +494,7 @@ fn insert_current_token_listings(
     }
     Ok(())
 }
+
 fn insert_token_escrows(
     conn: &mut PgConnection,
     items_to_insert: &[TokenEscrow],
@@ -510,6 +520,7 @@ fn insert_token_escrows(
     }
     Ok(())
 }
+
 fn insert_current_token_escrows(
     conn: &mut PgConnection,
     items_to_insert: &[CurrentTokenEscrow],
@@ -537,6 +548,33 @@ fn insert_current_token_escrows(
                     inserted_at.eq(excluded(inserted_at)),
                 )),
                 Some(" WHERE current_token_escrows.last_transaction_version <= excluded.last_transaction_version "),
+            )?;
+    }
+    Ok(())
+}
+
+fn insert_current_ans_lookups(
+    conn: &mut PgConnection,
+    items_to_insert: &[CurrentAnsLookup],
+) -> Result<(), diesel::result::Error> {
+    use schema::current_ans_lookup::dsl::*;
+
+    let chunks = get_chunks(items_to_insert.len(), CurrentAnsLookup::field_count());
+
+    for (start_ind, end_ind) in chunks {
+        execute_with_better_error(
+            conn,
+            diesel::insert_into(schema::current_ans_lookup::table)
+                .values(&items_to_insert[start_ind..end_ind])
+                .on_conflict((domain, subdomain))
+                .do_update()
+                .set((
+                    registered_address.eq(excluded(registered_address)),
+                    expiration_timestamp.eq(excluded(expiration_timestamp)),
+                    last_transaction_version.eq(excluded(last_transaction_version)),
+                    inserted_at.eq(excluded(inserted_at)),
+                )),
+                Some(" WHERE current_ans_lookup.last_transaction_version <= excluded.last_transaction_version "),
             )?;
     }
     Ok(())
@@ -578,6 +616,8 @@ impl TransactionProcessor for TokenTransactionProcessor {
             CurrentTokenPendingClaimPK,
             CurrentTokenPendingClaim,
         > = HashMap::new();
+        let mut all_current_ans_lookups: HashMap<CurrentAnsLookupPK, CurrentAnsLookup> =
+            HashMap::new();
 
         for txn in transactions {
             let (
@@ -611,6 +651,10 @@ impl TransactionProcessor for TokenTransactionProcessor {
             all_current_token_claims.extend(current_token_claims);
             all_current_token_listings.extend(current_token_listings);
             all_current_token_escrows.extend(current_token_escrows);
+
+            // ANS lookups
+            let current_ans_lookups = CurrentAnsLookup::from_transaction(&txn);
+            all_current_ans_lookups.extend(current_ans_lookups);
         }
 
         // Getting list of values and sorting by pk in order to avoid postgres deadlock since we're doing multi threaded db writes
@@ -678,6 +722,13 @@ impl TransactionProcessor for TokenTransactionProcessor {
             ))
         });
 
+        // Sort ans lookup values for postgres insert
+        let mut all_current_ans_lookups = all_current_ans_lookups
+            .into_values()
+            .collect::<Vec<CurrentAnsLookup>>();
+        all_current_ans_lookups
+            .sort_by(|a, b| a.domain.cmp(&b.domain).then(a.subdomain.cmp(&b.subdomain)));
+
         let mut conn = self.get_conn();
         let tx_result = insert_to_db(
             &mut conn,
@@ -702,6 +753,7 @@ impl TransactionProcessor for TokenTransactionProcessor {
                 all_token_escrows,
                 all_current_token_escrows,
             ),
+            all_current_ans_lookups,
         );
         match tx_result {
             Ok(_) => Ok(ProcessingResult::new(
