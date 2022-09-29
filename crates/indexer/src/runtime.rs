@@ -9,7 +9,7 @@ use crate::{
     },
     processors::{
         default_processor::DefaultTransactionProcessor, token_processor::TokenTransactionProcessor,
-        Processor,
+        Processor, coin_processor::CoinTransactionProcessor,
     },
 };
 
@@ -134,6 +134,7 @@ pub async fn run_forever(config: IndexerConfig, context: Arc<Context>) {
             Arc::new(DefaultTransactionProcessor::new(conn_pool.clone()))
         }
         Processor::TokenProcessor => Arc::new(TokenTransactionProcessor::new(conn_pool.clone())),
+        Processor::CoinProcessor => Arc::new(CoinTransactionProcessor::new(conn_pool.clone())),
     };
 
     let options =
@@ -230,6 +231,7 @@ pub async fn run_forever(config: IndexerConfig, context: Arc<Context>) {
             }
         };
 
+        panic!();
         ma.tick_now(num_res);
 
         versions_processed += num_res;
