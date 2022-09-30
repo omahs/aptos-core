@@ -383,12 +383,29 @@ async fn construction_metadata(
             }
 
             if let Ok(user_txn) = simulated_txn.transaction.as_signed_user_txn() {
-                let estimated_gas_unit_price = user_txn.gas_unit_price();
-                let adjusted_gas_used =
-                    adjust_gas_headroom(simulated_txn.info.gas_used(), user_txn.max_gas_amount());
+                let gas_used = simulated_txn.info.gas_used();
+
+                // Check that gas used was less than the provided max gas amount
+                let (max_gas_amount, gas_unit_price) =
+                    if let Some(provided_max_gas_amount) = request.options.max_gas_amount {
+                        if provided_max_gas_amount.0 < gas_used {
+                            return Err(ApiError::InvalidInput(Some(format!(
+                            "Max gas amount was below simulated gas used. Provided: {}, Needed: {}",
+                            provided_max_gas_amount.0, gas_used
+                        ))));
+                        }
+                        let estimated_gas_unit_price = user_txn.gas_unit_price();
+                        (provided_max_gas_amount, estimated_gas_unit_price)
+                    } else {
+                        let estimated_gas_unit_price = user_txn.gas_unit_price();
+                        let adjusted_gas_used =
+                            adjust_gas_headroom(gas_used, user_txn.max_gas_amount());
+
+                        (adjusted_gas_used, estimated_gas_unit_price)
+                    };
 
                 let suggested_fee =
-                    Amount::suggested_gas_fee(estimated_gas_unit_price, adjusted_gas_used);
+                    Amount::suggested_gas_fee(gas_unit_price, max_gas_amount.0);
                 let gas_unit_price = request
                     .options
                     .gas_price_per_unit
